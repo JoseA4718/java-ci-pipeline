@@ -8,10 +8,7 @@ import java.text.ParseException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.*;
-/**
- *
- * @author Jose Antonio Espinoza Chaves
- */
+
 class Calculadora extends JFrame{
     private JLabel lblResultado = new JLabel(" ");
     private JPanel pnlBotones = new JPanel(new GridLayout(4,4));
