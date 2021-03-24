@@ -17,20 +17,32 @@
   
   <path id="java-ci-pipeline.module.production.classpath">
     <path refid="${module.jdk.classpath.java-ci-pipeline}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
   </path>
   
   <path id="java-ci-pipeline.runtime.production.module.classpath">
     <pathelement location="${java-ci-pipeline.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
   </path>
   
   <path id="java-ci-pipeline.module.classpath">
     <path refid="${module.jdk.classpath.java-ci-pipeline}"/>
     <pathelement location="${java-ci-pipeline.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
   </path>
   
   <path id="java-ci-pipeline.runtime.module.classpath">
     <pathelement location="${java-ci-pipeline.testoutput.dir}"/>
     <pathelement location="${java-ci-pipeline.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
   </path>
   
   
