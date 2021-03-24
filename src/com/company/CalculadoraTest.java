@@ -7,6 +7,5 @@ public class CalculadoraTest {
     @org.junit.Test
     public void operar() {
         assertEquals(5,2+2);
-        assertEquals(53, 9*5);
     }
 }
